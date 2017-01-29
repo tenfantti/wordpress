@@ -1,0 +1,33 @@
+/*
+ Theme Name:   GeneratePress Child Theme
+ Theme URI:    http://www.generatepress.com/
+ Description:  A GeneratePress child theme
+ Author:       Janita Sallanko
+ Author URI:   http://www.leivonmaki.com/generatepress_leivonmaki
+ Template:     generatepress
+ Version:      1.0.0
+*/
+@import url("../gpleivonmaki/style.css");
+
+.site-branding {
+	display: inline-block; 
+	vertical-align: left;
+}
+
+.site-logo {
+	float: bottom;
+}
+
+.inside-header{
+	padding: 0;
+	margin-bottom: 0;
+}
+
+body .inside-header.grid-container {
+	max-width: 100%;
+	width: auto; 
+}
+
+.site-header {
+      text-align: left;
+} 
